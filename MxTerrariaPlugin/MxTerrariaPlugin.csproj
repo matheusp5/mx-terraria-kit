@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="OTAPI">
+        <HintPath>..\..\..\Downloads\terraria-server\bin\OTAPI.dll</HintPath>
+      </Reference>
+      <Reference Include="TerrariaServer">
+        <HintPath>..\..\..\Downloads\terraria-server\bin\TerrariaServer.dll</HintPath>
+      </Reference>
+      <Reference Include="TShockAPI">
+        <HintPath>..\..\..\Downloads\terraria-server\ServerPlugins\TShockAPI.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
